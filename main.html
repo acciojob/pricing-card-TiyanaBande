@@ -3,10 +3,63 @@
 <html>
 
 <head>
+	<title>Pricing Card Page</title>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		.pricing-card{
+			width: 300px;
+			padding: 20px;
+			background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		.card-image{
+			width: 100%;
+			border-redius: 5px;
+		}
+
+		.card-title{
+			font-size: 24px;
+            margin: 20px 0;
+            color: #333;
+		}
+
+		 .card-price {
+            font-size: 22px;
+            color: #007BFF;
+            margin: 10px 0;
+        }
+
+		.card-description {
+            font-size: 16px;
+            color: #555;
+            margin: 15px 0;
+        }
+
+		  .card-button {
+            padding: 10px 20px;
+            background-color: #28a745;
+           text-color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+		  }
+
+		   .card-button:hover {
+            background-color: #218838;
+        }
+	</style>
 </head>
 
 <body>
+	<div class="Pricing-Card">
+		<img src="product.jpg" alt="Product Image" class="card-image">
+		<h1 class="card-name">Pricing Card</h1>
+		<p class="card-price">Price: Rs.200</p>
+		<p class="card-description">Description: Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+		<button class="card-button">Buy Now</button>
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
